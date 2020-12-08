@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="header">>
+    </div>
+    <div id="tabs-top">
+        <a href="index.html">Home</a>
+        <a href="map.html">Map</a>
+        <a href="shops.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="sterkinekor.html">Movies</a>
+    </div>
+
+    <div id="main">
+        <div id="content">
+            <div id="info-box-full">
+                <h3>CONTACTS</h3>
+                <img src="images/slide1 (2).jpg"/>
+
+                <h2>Adress</h2>
+                <ul>
+                    <p> 12 pinestreet, 
+                    <br> PineCityMall, 
+                    <br> PineCity</p>
+
+                  </ul>  
+                  
+                  <h2>Contacts</h2>
+                  <ol>
+                    <li>tel:0737389796</li>
+                    <li>fax:0737389796</li>
+                  </ol>  
+               
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <a class="button" href="message.html">SUBMIT</a>
+
+                  
+                    </form>
+                  </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
